@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  ::selection {
+    background-color: #FF6B35;
+    color: #0D1117;
+  }
+}
+
+@layer utilities {
+  .diff-mark-add {
+    background-color: rgba(63, 185, 80, 0.15);
+    border-left: 3px solid #3FB950;
+  }
+  .diff-mark-remove {
+    background-color: rgba(248, 81, 73, 0.15);
+    border-left: 3px solid #F85149;
+  }
+  .roast-underline {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #F85149;
+    text-underline-offset: 4px;
+  }
+  .hype-underline {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #3FB950;
+    text-underline-offset: 4px;
+  }
+}
