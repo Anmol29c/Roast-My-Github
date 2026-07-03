@@ -4,7 +4,7 @@ AI reviews your GitHub profile like a senior developer doing a code review — e
 
 Every score is calculated from real signals pulled from the GitHub API — original vs. forked repos, description quality, recent activity, language diversity, stars. The AI doesn't invent the score; it just writes the commentary around it.
 
-**[Live Demo](#)** — add your deployed link here
+**[Live Demo](#)** — https://roast-my-github-rose.vercel.app
 
 ## Why this exists
 
